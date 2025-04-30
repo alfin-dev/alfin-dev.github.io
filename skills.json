@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "level": 100
+    },
+    {
+      "name": "CSS",
+      "level": 90
+    },
+    {
+      "name": "JavaScript & Jquery",
+      "level": 80
+    },
+    {
+      "name": "PHP",
+      "level": 100
+    },
+    {
+      "name": "Laravel",
+      "level": 100
+    },
+    {
+      "name": "Yii2",
+      "level": 100
+    }
+  ]
+}
