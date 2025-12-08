@@ -1,0 +1,25 @@
+{
+  "experience": [
+    {
+      "title": "Web Programmer & DevOps Engineer",
+      "period": "2022 - Present",
+      "company": "Mamorasoft, Surabaya, ID",
+      "tasks": [
+        "Build, Support, Maintenance, & Improvement project pada CV. Mamorasoft.",
+        "Melakukan pemeliharaan dan monitoring server (Development & Production).",
+        "Konfigurasi dan troubleshooting jaringan lingkungan perusahaan."
+      ]
+    },
+    {
+      "title": "Asisten Laboratorium Jaringan Komputer",
+      "period": "2019 - 2021",
+      "company": "Universitas 17 Agustus 1945 Surabaya",
+      "tasks": [
+        "Melakukan pemeliharaan aset laboratorium komputer.",
+        "Menyusun modul dan materi praktikum jaringan.",
+        "Mengajar dan membimbing peserta praktikum.",
+        "Mengelola penilaian praktikum mahasiswa."
+      ]
+    }
+  ]
+}
