@@ -1,52 +1,44 @@
 {
   "portfolio": [
     {
-      "year": "2025 - Present",
-      "title": "Backend Sistem PLN",
-      "client": "PLN Pinrang",
-      "description": "Pengembangan sisi backend untuk sistem manajemen internal PLN Pinrang, berfokus pada efisiensi pemrosesan data dan integrasi API."
+      "title": "Backend Management System – Instalasi Listrik",
+      "client": "Regional State-Owned Utility (Confidential)",
+      "description": "Pengembangan backend system untuk digitalisasi manajemen pemasangan listrik, termasuk API development, optimasi performa, serta support & maintenance berkelanjutan."
     },
     {
-      "year": "2025",
-      "title": "Sistem Kolam Pancing (Petrokimia Fishing Club)",
-      "client": "Petrokimia Gresik",
-      "description": "Membangun sistem kolam pancing, termasuk Support, Maintenance, dan Improvement fitur berkelanjutan."
+      "title": "Sistem perlombaan kolam pancing",
+      "client": "Large Enterprise (Confidential)",
+      "description": "Membangun sistem manajemen event perlombaan dengan fitur pendaftaran, pengumuman, dan pengelolaan peserta. Termasuk support dan pengembangan fitur lanjutan."
     },
     {
-      "year": "2023 - Present",
-      "title": "Home-Server Development",
+      "title": "Sistem Pemangku Tugas Sementara",
+      "client": "Enterprise Internal System (Confidential)",
+      "description": "Membangun sistem penunjukan pemangku tugas sementara dengan pengaturan periode aktif, role & permission dinamis, serta penyesuaian alur approval secara otomatis tanpa mengubah jabatan permanen."
+    },
+    {
+      "title": "Sistem Rotasi, Mutasi & Promosi Karyawan",
+      "client": "Enterprise Internal System (Confidential)",
+      "description": "Pengembangan dan pemeliharaan sistem HR internal yang terintegrasi dengan sistem perusahaan lainnya, fokus pada proses mutasi, rotasi, dan promosi karyawan."
+    },
+    {
+      "title": "Sistem Profil Tugas & Jabatan Karyawan",
+      "client": "Enterprise Internal System (Confidential)",
+      "description": "Membangun sistem pengelolaan profil tugas dan jabatan karyawan yang mencakup definisi peran, tanggung jawab, kewenangan, serta keterkaitan dengan struktur organisasi dan sistem internal lainnya."
+    },
+    {
+      "title": "Home-Server & Development Infrastructure",
       "client": "CV. Mamorasoft",
-      "description": "Membangun infrastruktur home-server sebagai lingkungan development pusat menggunakan layanan MikroTik-CHR untuk manajemen jaringan yang optimal."
+      "description": "Membangun infrastruktur home-server sebagai environment development terpusat menggunakan MikroTik CHR untuk manajemen jaringan, dan akses developer."
     },
     {
-      "year": "2023 - Present",
-      "title": "Sistem Manajemen Karyawan",
-      "client": "Petrokimia Gresik",
-      "description": "Membangun sistem manajemen karyawan secara menyeluruh. Termasuk Support, Maintenance, dan Improvement fitur berkelanjutan."
+      "title": "Sistem Pendaftaran Online Calon Peserta Didik",
+      "client": "Educational Institution (Confidential)",
+      "description": "Support, maintenance, dan pengembangan fitur lanjutan pada sistem pendaftaran online calon peserta didik."
     },
     {
-      "year": "2022 - 2023",
-      "title": "Pendaftaran Calon Taruna",
-      "client": "STIP Jakarta",
-      "description": "Menangani Support, Maintenance, serta pengembangan fitur (Improvement) pada sistem pendaftaran online untuk calon taruna baru."
-    },
-    {
-      "year": "2022 - Present",
-      "title": "Project Support & Maintenance",
-      "client": "Petrokimia Gresik",
-      "description": "Melakukan pemeliharaan sistem dan peningkatan performa aplikasi untuk memastikan operasional berjalan lancar tanpa kendala."
-    },
-    {
-      "year": "2022 - Present",
-      "title": "Server Monitoring",
-      "client": "CV. Mamorasoft",
-      "description": "Bertanggung jawab atas Maintenance & Monitoring server (Production & Development) untuk menjamin uptime dan keamanan data."
-    },
-    {
-      "year": "2021",
-      "title": "Sistem Kasir Berbasis Web",
-      "client": "Bhayangkari Polda Jatim (Freelance)",
-      "description": "Membangun aplikasi Point of Sales (POS) berbasis web untuk mendukung transaksi operasional pada acara Bazzar Bhayangkari."
+      "title": "Sistem Point of Sales (POS) Berbasis Web",
+      "client": "Event Organization",
+      "description": "Membangun aplikasi Point of Sales (POS) berbasis web untuk mendukung transaksi operasional event."
     }
   ]
 }
