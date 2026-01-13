@@ -84,15 +84,15 @@
       </div>
     </section>
 
-    <section id="skills" class="skills section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Keahlian teknis yang telah saya kuasai.</p>
-      </div>
+    <section id="skills" class="skills section">
+      <div class="container">
+        <header class="section-title">
+          <h2>Technical Skills</h2>
+          <p>Core technologies and tools used in professional projects.</p>
+        </header>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div id="skills-container" class="row skills-content skills-animation">
-          <div class="text-center">Loading skills...</div>
+        <div id="skills-container" class="row">
+          <p>Loading skills...</p>
         </div>
       </div>
     </section>
@@ -125,64 +125,30 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const skillsContainer = document.getElementById('skills-container');
-      const jsonUrl = 'skills.json'; // Pastikan jalur filenya benar
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById("skills-container");
 
-      fetch(jsonUrl)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("HTTP error " + response.status);
-          }
-          return response.json();
-        })
-        .then(data => {
-          const skills = data.skills;
+    fetch("skills.json")
+      .then(res => res.json())
+      .then(data => {
+        container.innerHTML = "";
 
-          // Hapus teks 'Loading...'
-          skillsContainer.innerHTML = '';
+        data.skills.forEach(group => {
+          const col = document.createElement("div");
+          col.className = "col-12 mb-3";
 
-          // Bagi data menjadi 2 bagian (Kiri dan Kanan)
-          const half = Math.ceil(skills.length / 2);
-          const leftColumnSkills = skills.slice(0, half);
-          const rightColumnSkills = skills.slice(half);
+          col.innerHTML = `
+            <h3 class="h5 fw-semibold">${group.category}</h3>
+            <p>${group.items.join(", ")}</p>
+          `;
 
-          // Fungsi untuk membuat HTML progress bar
-          function createSkillHTML(skillItem) {
-            return `
-              <div class="progress">
-                <span class="skill"><span>${skillItem.name}</span> <i class="val">${skillItem.level}%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="${skillItem.level}" aria-valuemin="0" aria-valuemax="100" style="width: ${skillItem.level}%;"></div>
-                </div>
-              </div>
-            `;
-          }
-
-          // Buat Kolom Kiri
-          const colLeft = document.createElement('div');
-          colLeft.className = 'col-lg-6';
-          leftColumnSkills.forEach(skill => {
-            colLeft.innerHTML += createSkillHTML(skill);
-          });
-
-          // Buat Kolom Kanan
-          const colRight = document.createElement('div');
-          colRight.className = 'col-lg-6';
-          rightColumnSkills.forEach(skill => {
-            colRight.innerHTML += createSkillHTML(skill);
-          });
-
-          // Masukkan ke dalam Container
-          skillsContainer.appendChild(colLeft);
-          skillsContainer.appendChild(colRight);
-
-        })
-        .catch(function(error) {
-          console.log('Error loading skills:', error);
-          skillsContainer.innerHTML = '<div class="col-12 text-danger">Failed to load skills data.</div>';
+          container.appendChild(col);
         });
-    });
+      })
+      .catch(() => {
+        container.innerHTML = "<p>Unable to load skills.</p>";
+      });
+  });
   </script>
 </body>
 </html>

@@ -1,10 +1,46 @@
 {
   "skills": [
-    { "name": "HTML / CSS", "level": 100 },
-    { "name": "JavaScript & jQuery", "level": 95 },
-    { "name": "MikroTik & Networking", "level": 100 },
-    { "name": "PHP (Laravel / Yii2)", "level": 100 },
-    { "name": "Linux Server Admin", "level": 100 },
-    { "name": "DevOps & Automation", "level": 90 }
+    {
+      "category": "Backend Development",
+      "items": [
+        "PHP",
+        "Laravel",
+        "RESTful API",
+        "JWT Authentication",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript",
+        "Vue.js"
+      ]
+    },
+    {
+      "category": "DevOps & Infrastructure",
+      "items": [
+        "Linux Server",
+        "Docker",
+        "CI/CD Pipeline",
+        "Nginx",
+        "Git Version Control",
+        "MikroTik Network Configuration"
+      ]
+    },
+    {
+      "category": "Tools & Practices",
+      "items": [
+        "GitHub",
+        "Postman",
+        "Swagger API Documentation",
+        "Monitoring & Logging",
+        "Server Security Hardening"
+      ]
+    }
   ]
 }
