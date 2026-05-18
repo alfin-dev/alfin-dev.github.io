@@ -26,9 +26,9 @@
       "description": "Membangun sistem pengelolaan profil tugas dan jabatan karyawan yang mencakup definisi peran, tanggung jawab, kewenangan, serta keterkaitan dengan struktur organisasi dan sistem internal lainnya."
     },
     {
-      "title": "Home-Server & Development Infrastructure",
+      "title": "On-Premise Server Infrastructure",
       "client": "CV. Mamorasoft",
-      "description": "Membangun infrastruktur home-server sebagai environment development terpusat menggunakan MikroTik CHR untuk manajemen jaringan, dan akses developer."
+      "description": "Merancang, membangun, dan mengelola self-hosted on-premise infrastructure berbasis server fisik untuk kebutuhan development aplikasi CV. Mamorasoft, termasuk konfigurasi routing dan network virtualization menggunakan MikroTik CHR."
     },
     {
       "title": "Sistem Pendaftaran Online Calon Peserta Didik",
@@ -39,6 +39,16 @@
       "title": "Sistem Point of Sales (POS) Berbasis Web",
       "client": "Event Organization",
       "description": "Membangun aplikasi Point of Sales (POS) berbasis web untuk mendukung transaksi operasional event."
+    },
+    {
+      "title": "Aplikasi HRIS MAMORASOFT",
+      "client": "Internal Mamorasoft",
+      "description": "Mengembangkan aplikasi HRIS (Human Resource Information System) untuk mendukung operasional perusahaan, mencakup fitur absensi, manajemen data karyawan, penggajian, perhitungan tunjangan/potongan, serta laporan administrasi karyawan."
+    },
+    {
+      "title": "Pity Cash - Add-on HRIS",
+      "client": "Internal Mamorasoft",
+      "description": "Mengembangkan add-on Petty Cash Management yang terintegrasi dengan aplikasi DivisiHR untuk mengelola pengajuan, pencatatan, persetujuan, penggunaan, dan pelaporan kas kecil perusahaan."
     }
   ]
 }
