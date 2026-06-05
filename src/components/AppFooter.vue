@@ -7,7 +7,7 @@
           <RouterLink to="/" class="font-display font-bold text-lg text-white tracking-tight">
             Alf<span class="text-[var(--color-cyan)]">i</span>n
           </RouterLink>
-          <p class="text-[var(--color-muted)] text-sm mt-1">Web Developer & DevOps Engineer</p>
+          <p class="text-[var(--color-muted)] text-sm mt-1">Fullstack WEB Developer with DevOps Responsibilities</p>
         </div>
 
         <!-- Social links -->

@@ -48,11 +48,6 @@
       </div>
     </div>
 
-    <!-- Scroll indicator -->
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40 animate-bounce">
-      <span class="text-xs text-[var(--color-muted)] tracking-widest uppercase">Scroll</span>
-      <ChevronDown :size="16" class="text-[var(--color-muted)]" />
-    </div>
   </section>
 </template>
 

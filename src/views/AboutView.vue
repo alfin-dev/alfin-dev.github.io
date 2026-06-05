@@ -19,7 +19,7 @@
         <!-- Bio -->
         <div class="md:col-span-3">
           <h3 class="font-display font-semibold text-xl text-[var(--color-cyan)] mb-3 reveal">
-            Full Stack WEB Developer with DevOps Responsibilities
+            Fullstack WEB Developer with DevOps Responsibilities
           </h3>
           <p class="text-[var(--color-muted)] leading-relaxed mb-6 reveal">
             Profesional IT dengan pengalaman <strong>4+ tahun</strong> dalam pengembangan aplikasi web menggunakan PHP,

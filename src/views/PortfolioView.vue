@@ -17,7 +17,7 @@
 
     <!-- Grid -->
     <TransitionGroup name="grid" tag="div" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-      <div v-for="(item, index) in filteredPortfolio" :key="item.title" class="glass-card p-6 flex flex-col reveal"
+      <div v-for="(item, index) in filteredPortfolio" :key="`${item.title}|${item.client}`" class="glass-card p-6 flex flex-col"
         :style="{ transitionDelay: `${(index % 3) * 80}ms` }">
         <!-- Tag badge -->
         <div class="flex items-start justify-between gap-2 mb-4">

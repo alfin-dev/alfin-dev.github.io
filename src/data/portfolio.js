@@ -24,6 +24,30 @@ export const portfolio = [
     description: 'Pengembangan dan pemeliharaan sistem HR internal terintegrasi, fokus pada proses mutasi, rotasi, dan promosi karyawan.',
   },
   {
+    title: 'Sistem Pendaftaran Peserta Magang Perusahaan',
+    client: 'Enterprise Internal System',
+    tag: 'Recruitment System',
+    description: 'Membangun sistem pendaftaran peserta magang perusahaan dengan fitur pendaftaran,seleksi berbasis cbt, psikotes, wawancara, pengumuman hasil, dan pengelolaan peserta. Termasuk support dan pengembangan fitur lanjutan.',
+  },
+  {
+    title: 'Sistem Penjualan Tabung Gas',
+    client: 'Enterprise Internal System',
+    tag: 'Web App',
+    description: 'Membangun sistem penjualan tabung gas berbasis web dengan fitur pendaftaran,penjualan, pengiriman, dan pengelolaan pesanan. Termasuk support dan pengembangan fitur lanjutan.',
+  },
+  {
+    title: 'Sistem Uraian Pekerjaan (Job Description)',
+    client: 'Enterprise Internal System',
+    tag: 'HR System',
+    description: 'Membangun sistem uraian pekerjaan (job description) berbasis web dengan fitur uraian pekerjaan, penyesuaian, approval, dan pengelolaan job description. Termasuk support dan pengembangan fitur lanjutan.',
+  },
+  {
+    title: 'Executive HR Dashboard',
+    client: 'Enterprise Internal System',
+    tag: 'HR System',
+    description: 'Membangun dashboard untuk para pimpinan yang terdiri dari fitur-fitur seperti performance dashboard, employee list, recruitment data, dan fitur lainnya. Termasuk support dan pengembangan fitur lanjutan.',
+  },
+  {
     title: 'Sistem Profil Tugas & Jabatan Karyawan',
     client: 'Enterprise Internal System',
     tag: 'HR System',
@@ -32,6 +56,12 @@ export const portfolio = [
   {
     title: 'On-Premise Server Infrastructure',
     client: 'CV. Mamorasoft',
+    tag: 'DevOps',
+    description: 'Merancang, membangun, dan mengelola self-hosted on-premise infrastructure berbasis server fisik, termasuk konfigurasi routing dan network virtualization menggunakan MikroTik CHR.',
+  },
+  {
+    title: 'On-Premise Server Infrastructure',
+    client: 'PT. Meta Media Optima',
     tag: 'DevOps',
     description: 'Merancang, membangun, dan mengelola self-hosted on-premise infrastructure berbasis server fisik, termasuk konfigurasi routing dan network virtualization menggunakan MikroTik CHR.',
   },
@@ -48,15 +78,15 @@ export const portfolio = [
     description: 'Membangun aplikasi Point of Sales berbasis web untuk mendukung transaksi operasional event.',
   },
   {
-    title: 'Aplikasi HRIS MAMORASOFT',
+    title: 'Aplikasi HR System MAMORASOFT',
     client: 'Internal Mamorasoft',
-    tag: 'HRIS',
-    description: 'Mengembangkan aplikasi HRIS mencakup fitur absensi, manajemen data karyawan, penggajian, perhitungan tunjangan/potongan, serta laporan administrasi karyawan.',
+    tag: 'HR System',
+    description: 'Mengembangkan aplikasi HR System mencakup fitur absensi, manajemen data karyawan, penggajian, perhitungan tunjangan/potongan, serta laporan administrasi karyawan.',
   },
   {
-    title: 'Petty Cash — Add-on HRIS',
+    title: 'Petty Cash — Add-on HR System Mamorasoft',
     client: 'Internal Mamorasoft',
-    tag: 'HRIS',
+    tag: 'HR System',
     description: 'Mengembangkan add-on Petty Cash Management yang terintegrasi dengan DivisiHR untuk mengelola pengajuan, pencatatan, persetujuan, penggunaan, dan pelaporan kas kecil.',
   },
 ]
