@@ -19,7 +19,7 @@
           </div>
           <div class="flex-1 min-w-0">
             <p class="text-xs text-[var(--color-muted)] mb-0.5">{{ contact.label }}</p>
-            <p class="text-white font-medium text-sm truncate">{{ contact.display }}</p>
+            <p class="text-[var(--color-text)] font-medium text-sm truncate">{{ contact.display }}</p>
           </div>
           <ExternalLink :size="14" class="text-[var(--color-muted)] flex-shrink-0 opacity-50" />
         </a>
@@ -33,10 +33,10 @@
             class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 bg-gradient-to-br from-[var(--color-accent)] to-[#8b5cf6]">
             <Zap :size="28" class="text-white" />
           </div>
-          <h3 class="font-display font-semibold text-white text-xl mb-2">Open to Work</h3>
+          <h3 class="font-display font-semibold text-[var(--color-text)] text-xl mb-2">Open to Work</h3>
           <p class="text-[var(--color-muted)] text-sm leading-relaxed mb-6">
             Saya saat ini tersedia untuk proyek freelance maupun kolaborasi.
-            Response time biasanya dalam <strong class="text-white">24 jam</strong>.
+            Response time biasanya dalam <strong class="text-[var(--color-text)]">24 jam</strong>.
           </p>
           <a href="https://wa.me/6287776025381?text=Halo%20Mas%20Alfin,%20saya%20tertarik%20dengan%20jasa%20Web/DevOps%20Anda."
             target="_blank" rel="noopener noreferrer" class="btn-accent w-full justify-center">
@@ -47,7 +47,7 @@
 
         <!-- Social links -->
         <div class="glass-card p-6">
-          <h4 class="font-semibold text-white text-sm mb-4">Follow me on</h4>
+          <h4 class="font-semibold text-[var(--color-text)] text-sm mb-4">Follow me on</h4>
           <div class="flex items-center gap-3">
             <a v-for="social in socials" :key="social.label" :href="social.url" target="_blank"
               rel="noopener noreferrer" :aria-label="social.label" class="social-icon-btn flex-1"

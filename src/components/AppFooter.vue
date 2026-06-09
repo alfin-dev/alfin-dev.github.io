@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between gap-6">
         <!-- Logo + tagline -->
         <div class="text-center md:text-left">
-          <RouterLink to="/" class="font-display font-bold text-lg text-white tracking-tight">
+          <RouterLink to="/" class="font-display font-bold text-lg tracking-tight" style="color: var(--color-text)">
             Alf<span class="text-[var(--color-cyan)]">i</span>n
           </RouterLink>
           <p class="text-[var(--color-muted)] text-sm mt-1">Fullstack WEB Developer with DevOps Responsibilities</p>
@@ -20,7 +20,7 @@
 
         <!-- Copyright -->
         <p class="text-[var(--color-muted)] text-sm text-center md:text-right">
-          © {{ currentYear }} <span class="text-white font-medium">Alfin</span>. All rights reserved.
+          © {{ currentYear }} <span style="color: var(--color-text)" class="font-medium">Alfin</span>. All rights reserved.
         </p>
       </div>
     </div>
@@ -55,6 +55,11 @@ const socials = [
   backdrop-filter: blur(10px);
 }
 
+:global(html.light) .footer-bg {
+  background: rgba(235, 235, 248, 0.9);
+  backdrop-filter: blur(10px);
+}
+
 .social-btn {
   width: 40px;
   height: 40px;
@@ -66,6 +71,10 @@ const socials = [
   color: var(--color-muted);
   text-decoration: none;
   transition: all 0.25s ease;
+}
+
+:global(html.light) .social-btn {
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .social-btn:hover {

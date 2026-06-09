@@ -28,7 +28,7 @@
         </div>
 
         <!-- Content -->
-        <h3 class="font-display font-semibold text-white text-sm leading-snug mb-2 flex-1">
+        <h3 class="font-display font-semibold text-[var(--color-text)] text-sm leading-snug mb-2 flex-1">
           {{ item.title }}
         </h3>
         <p class="text-[var(--color-muted)] text-xs leading-relaxed mb-4">

@@ -34,7 +34,7 @@
             <div v-for="info in infos" :key="info.label" class="info-chip">
               <component :is="info.icon" :size="15" class="text-[var(--color-accent)] flex-shrink-0" />
               <span class="text-[var(--color-muted)] text-sm">
-                <strong class="text-white font-medium">{{ info.label }}:</strong>
+                <strong class="text-[var(--color-text)] font-medium">{{ info.label }}:</strong>
                 <template v-if="info.href">
                   <a :href="info.href" target="_blank" class="text-[var(--color-cyan)] hover:underline ml-1">{{
                     info.value }}</a>
@@ -61,7 +61,7 @@
             <div class="icon-box">
               <component :is="getIcon(group.icon)" :size="18" class="text-[var(--color-accent)]" />
             </div>
-            <h4 class="font-display font-semibold text-white">{{ group.category }}</h4>
+            <h4 class="font-display font-semibold text-[var(--color-text)]">{{ group.category }}</h4>
           </div>
           <div class="flex flex-wrap gap-2">
             <span v-for="item in group.items" :key="item" class="skill-badge">{{ item }}</span>

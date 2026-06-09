@@ -24,7 +24,7 @@
       <!-- Typing line -->
       <p class="text-[var(--color-muted)] text-lg md:text-xl mb-10 min-h-[2rem]">
         I'm a
-        <span class="text-white font-semibold">{{ displayText }}</span>
+        <span class="text-[var(--color-text)] font-semibold">{{ displayText }}</span>
         <span class="typing-cursor" :class="{ 'opacity-0': !showCursor }">|</span>
       </p>
 

@@ -14,9 +14,9 @@
             <div class="section-icon-box">
               <User :size="18" class="text-[var(--color-accent)]" />
             </div>
-            <h3 class="font-display font-semibold text-lg text-white">Summary</h3>
+            <h3 class="font-display font-semibold text-lg text-[var(--color-text)]">Summary</h3>
           </div>
-          <h4 class="font-semibold text-white mb-2">M. Alfin Khoiri</h4>
+          <h4 class="font-semibold text-[var(--color-text)] mb-2">M. Alfin Khoiri</h4>
           <p class="text-[var(--color-muted)] text-sm leading-relaxed mb-4">
             Web Developer dan DevOps Engineer berpengalaman 3+ tahun. Ahli dalam membangun
             aplikasi web scalable dengan Laravel & PHP serta mengelola infrastruktur server yang aman.
@@ -44,7 +44,7 @@
             <div class="section-icon-box">
               <GraduationCap :size="18" class="text-[var(--color-cyan)]" />
             </div>
-            <h3 class="font-display font-semibold text-lg text-white">Education</h3>
+            <h3 class="font-display font-semibold text-lg text-[var(--color-text)]">Education</h3>
           </div>
           <div class="timeline-container">
             <div class="timeline-item">
@@ -54,12 +54,12 @@
               </div>
               <div class="glass-card p-5 flex-1 mb-0">
                 <div class="flex items-start justify-between gap-2 flex-wrap mb-2">
-                  <h4 class="font-semibold text-white text-sm">S1 Teknik Informatika</h4>
+                  <h4 class="font-semibold text-[var(--color-text)] text-sm">S1 Teknik Informatika</h4>
                   <span class="period-badge">2017 – 2021</span>
                 </div>
                 <p class="text-[var(--color-cyan)] text-xs font-medium mb-2">Universitas 17 Agustus 1945 Surabaya</p>
                 <p class="text-[var(--color-muted)] text-xs leading-relaxed">
-                  Lulus dengan predikat <strong class="text-white">Cum Laude (IPK 3.80)</strong>.
+                  Lulus dengan predikat <strong class="text-[var(--color-text)]">Cum Laude (IPK 3.80)</strong>.
                   Lulusan terbaik Prodi Teknik Informatika 2021.
                 </p>
               </div>
@@ -74,7 +74,7 @@
           <div class="section-icon-box">
             <Briefcase :size="18" class="text-[var(--color-accent)]" />
           </div>
-          <h3 class="font-display font-semibold text-lg text-white">Professional Experience</h3>
+          <h3 class="font-display font-semibold text-lg text-[var(--color-text)]">Professional Experience</h3>
         </div>
 
         <div class="timeline-container">
@@ -85,7 +85,7 @@
             </div>
             <div class="glass-card p-5 flex-1 mb-0">
               <div class="flex items-start justify-between gap-2 flex-wrap mb-1">
-                <h4 class="font-semibold text-white text-sm">{{ job.title }}</h4>
+                <h4 class="font-semibold text-[var(--color-text)] text-sm">{{ job.title }}</h4>
                 <span class="period-badge">{{ job.period }}</span>
               </div>
               <p class="text-[var(--color-cyan)] text-xs font-medium mb-3">{{ job.company }}</p>
