@@ -3,7 +3,19 @@
     <!-- Header -->
     <p class="section-eyebrow reveal">Background</p>
     <h2 class="section-title reveal">Resume</h2>
-    <p class="section-subtitle mt-2 mb-16 reveal">Pengalaman profesional dan riwayat pendidikan saya.</p>
+    <p class="section-subtitle mt-2 mb-8 reveal">Pengalaman profesional dan riwayat pendidikan saya.</p>
+
+    <!-- Download CV -->
+    <div class="mb-12 reveal">
+      <a
+        href="/CV_Alfin_ATS_Modern.pdf"
+        download="CV_Alfin_Khoiri.pdf"
+        class="btn-accent inline-flex"
+      >
+        <Download :size="16" class="relative z-10" />
+        <span>Download CV (PDF · ATS Friendly)</span>
+      </a>
+    </div>
 
     <div class="grid md:grid-cols-2 gap-10">
       <!-- Left: Summary + Education -->
@@ -105,7 +117,7 @@
 </template>
 
 <script setup>
-import { User, MapPin, Mail, Phone, GraduationCap, Briefcase } from '@lucide/vue'
+import { User, MapPin, Mail, Phone, GraduationCap, Briefcase, Download } from '@lucide/vue'
 import { experience } from '@/data/experience'
 import { useScrollReveal } from '@/composables/useScrollReveal'
 
