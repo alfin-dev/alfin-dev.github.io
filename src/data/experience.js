@@ -1,7 +1,7 @@
 export const experience = [
   {
     title: 'Web Programmer & DevOps Engineer',
-    period: '2022 — Present',
+    period: '2022 — 2026',
     company: 'Mamorasoft, Surabaya, ID',
     tasks: [
       'Build, Support, Maintenance, & Improvement project pada CV. Mamorasoft.',
