@@ -7,14 +7,10 @@
 
     <!-- Download CV -->
     <div class="mb-12 reveal">
-      <a
-        href="/CV_Alfin_ATS_Modern.pdf"
-        download="CV_Alfin_Khoiri.pdf"
-        class="btn-accent inline-flex"
-      >
-        <Download :size="16" class="relative z-10" />
-        <span>Download CV (PDF · ATS Friendly)</span>
-      </a>
+      <button @click="viewPdf" class="btn-accent inline-flex cursor-pointer">
+        <Eye :size="16" class="relative z-10" />
+        <span>View CV (PDF · ATS Friendly)</span>
+      </button>
     </div>
 
     <div class="grid md:grid-cols-2 gap-10">
@@ -117,11 +113,24 @@
 </template>
 
 <script setup>
-import { User, MapPin, Mail, Phone, GraduationCap, Briefcase, Download } from '@lucide/vue'
+import { User, MapPin, Mail, Phone, GraduationCap, Briefcase, Eye } from '@lucide/vue'
 import { experience } from '@/data/experience'
 import { useScrollReveal } from '@/composables/useScrollReveal'
 
 useScrollReveal()
+
+const viewPdf = async () => {
+  try {
+    const response = await fetch('/CV_Alfin_ATS_Modern.pdf')
+    const blob = await response.blob()
+    const pdfBlob = new Blob([blob], { type: 'application/pdf' })
+    const blobUrl = URL.createObjectURL(pdfBlob)
+    window.open(blobUrl, '_blank')
+  } catch (error) {
+    console.error('Error viewing PDF:', error)
+    window.open('/CV_Alfin_ATS_Modern.pdf', '_blank')
+  }
+}
 </script>
 
 <style scoped>
