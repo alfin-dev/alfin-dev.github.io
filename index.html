@@ -16,16 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Alfin — Web Developer & DevOps Engineer</title>
-    <!-- Restore path from 404.html redirect (GitHub Pages SPA trick) -->
     <script>
       (function (l) {
         if (l.search[1] === 'p') {
           var params = l.search.slice(1).split('&');
           var path = params[0].slice(2);          // ?p=/about  → /about
           var query = params[1] ? '?' + params[1].slice(2).replace(/~and~/g, '&') : '';
+          var cleanPath = path.replace(/^\/+/, '');
           window.history.replaceState(
             null, null,
-            '/' + path.replace(/~and~/g, '&') + query + l.hash
+            '/' + cleanPath.replace(/~and~/g, '&') + query + l.hash
           );
         }
       }(window.location));
